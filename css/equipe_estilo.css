@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* versão para desktop */
+/* inicio da edição dos orientadores */
+
+figure.orientador h2{
+    font-family: Arial; /* edição do texto da foto-legenda */
+    font-size: 10px;
+}
+h3.titulacao{
+    font-family: Arial;
+    color: black;
+}
+p.descricao{
+    font-family: Arial;
+    font-size: 12px;
+}
+/* inicio da edição dos discentes */
+
+figure.discentes h3{
+    font-family: Arial;
+    font-size: 10px;
+}
+/*formatação para Mobile S*/
+@media only screen and (max-width: 373px){
+    /* incio da edição dos orientadores */
+    figure.orientador h2{
+        font-family: Arial; /* edição do texto da foto-legenda */
+        font-size: 10px;
+    }
+    h3.titulacao{
+        font-family: Arial;
+        color: black;
+        font-size: 14px;
+    }
+    p.descricao{
+        font-family: Arial;
+        font-size: 10.5px;
+    }
+    /* incio da edição dos discentes */
+    figure.discentes h3{
+        font-family: Arial;
+        font-size: 10px;
+    }
+}
+/* formatação da pagina para Mobile M */
+@media only screen and (min-width: 374px) and (max-width: 399px){
+    /* inicio da edição dos orientadores */
+    figure.orientador h2{
+        font-family: Arial; /* edição do texto da foto-legenda */
+        font-size: 11px;
+    }
+    h3.titulacao{
+        font-family: Arial;
+        color: black;
+        font-size: 16px;
+    }
+    p.descricao{
+        font-family: Arial;
+        font-size: 12px;
+    }
+    /* inicio da edição dos discentes */
+    figure.discentes h3{
+        font-family: Arial;
+        font-size: 11px;
+    }
+}
+/*formatação da pagina index para mobile L */
+@media only screen and (min-width: 400px) and (max-width: 700px){
+    /* inicio dos orientadores */
+    figure.orientador img{
+        width: 400px;
+        height: 300px;
+    }
+    figure.orientador h2{
+        font-family: Arial; /* edição do texto da foto-legenda */
+        font-size: 12px;
+    }
+    h3.titulacao{
+        font-family: Arial;
+        color: black;
+        font-size: 15px;
+    }
+    p.descricao{
+        font-family: Arial;
+        font-size: 14px;
+    }
+    /* inicio edição dos discentes */
+    figure.discentes img{
+        width: 90px;
+        height: 90px;
+    }
+    figure.discentes h3{
+        font-family: Arial;
+        font-size: 11px;
+    }
+}
+/* formatação da pagina index para Tablets */
+@media only screen and (max-width: 1000px) and (min-width: 700px){
+    /* inicio da edição dos orientadores */
+    figure.orientador img{
+        width: 200px;
+        height: 200px;
+    }
+    figure.orientador h2{
+        font-family: Arial; /* edição do texto da foto-legenda */
+        font-size: 13px;
+    }
+    h3.titulacao{
+        font-family: Arial;
+        color: black;
+        font-size: 16px;
+    }
+    p.descricao{
+        font-family: Arial;
+        font-size: 11px;
+    }
+    /* inicio da edição dos discentes */
+    figure.discentes img{
+        width: 90px;
+        height: 90px;
+    }
+    figure.discentes h3{
+        font-family: Arial;
+        font-size: 12px;
+    }
+}
+/* formatação para laptop de 1024px*/
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
+    /* inicio edição dos orientadores */
+    figure.orientador img{
+        width: 250px; /* dimensionamento da figura */
+        height: 250px;
+    }
+    figure.orientador h2{
+        font-family: Arial; /* edição do texto da foto-legenda */
+        font-size: 10px;
+    }
+    h3.titulacao{
+        font-family: Arial;
+        color: black;
+    }
+    p.descricao{
+        font-family: Arial;
+        font-size: 12px;
+    }
+    /* inicio da edição dos discentes */
+    figure.discentes img{
+        width: 100px;
+        height: 100px;
+    }
+    figure.discentes h3{
+        font-family: Arial;
+        font-size: 10px;
+    }
+}
