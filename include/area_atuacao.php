@@ -1,4 +1,4 @@
-<section id="area" class="about-section text-center">
+<section id="area" class="about-section text-center" style="background-image: url(fotos/livros.jpg);>
 <div class="container">
     <!-- Example row of columns -->
     <div class="row">
