@@ -1,30 +1,49 @@
 @charset "UTF-8";
 /* edição das informações de contato */
 h1.inf_contato {
+    color: black;
     font-family: Arial;
     font-size: 45px;
 }
 h2.h2_e-mail {
+    color: black;
     font-family: Arial;
     font-size: 30px;
 }
 p.e-mail {
+    color: black;
     font-family: Arial;
     font-size: 18px;
     font-style: italic;
 }
 h2.h2_telefone {
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+}
+h2.h2_mapa{
+    color: black;
     font-family: Arial;
     font-size: 30px;
 }
 p.telefone {
+    color: black;
     font-family: Arial;
     font-size: 18px;
-    font-style: italic;
+}
+p.p_mapa{
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
 }
 /* edição parceiros */
 figure.parceiro img{
     border-radius: 75px;
+}
+h1.parceiro{
+    color: white;
+    font-family: Arial;
+    font-size: 45px;
 }
 /* formatação pagina index para Mobile S */
 @media only screen and (max-width: 374px){

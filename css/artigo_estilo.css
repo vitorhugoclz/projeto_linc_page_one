@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* edição do texto onde se encontra o link dos artigos: */
-a.artigo_nome{
+area.artigo_nome{
     font-family: "Times New Roman";
     font-size: 20px;
-    color:black;
+    color:green;
 }
 
 /* edição do texto para mobile S */
