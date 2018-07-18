@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <!-- icone do linc para o Browser -->
     <link rel="shortcut icon" href="fotos/linc.ico" type="image/x-icon" />
 
