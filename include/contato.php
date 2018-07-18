@@ -2,6 +2,7 @@
 <div class="container">
     <!-- Example row of columns -->
     <div class="col-md-12">
+        <br/> <br/>
         <h1 class="parceiros">Parceiros: </h1>
     </div>
         <div class="col-md-12">

@@ -2,6 +2,7 @@
 <div class="container">
     <div class="row align-items-center">
         <div class="col-md-12" align="center">
+            <br/> <br/>
             <h1>Docentes: </h1> <br/>
         </div>
         <div class="col-md-4" align="right"> <!-- coloca a foto com legenda em 4 colunas e deslocamento a direita -->
@@ -109,7 +110,7 @@
     <div class="col-md-12">
         <h1>Ex-Discentes: </h1>
     </div>
-        <div class="col-md-2">
+        <div class="col-md-2" align="left">
             <img src="fotos/pessoas/julia.png" class="img-thumbnail"/>
         </div>
         <div class="col-md-2" align="left">
