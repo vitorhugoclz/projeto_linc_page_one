@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* formatação da pagina index para desktop*/
+figure.figure figcaption { /* bloco para a legenda*/
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4); /*coloca o fundo em um sinza */
+    color: white; /*cor do texto */
+    width: 94.6%;
+    height: 95.4%;
+    transition: opacity 1s; /* tempo da transição para o texto */
+}
+
+figure.figure:hover figcaption {
+    opacity: 1;
+}
+
+figure.figure p { /*edição do texto da foto-legenda */
+    position: absolute;
+    font-family: Arial;
+    font-size: 14px;
+    top: 75%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/*formatação pagina index para Mobile S*/
+@media only screen and (max-width: 374px){
+    figure.figure figcaption { /* bloco para a legenda*/
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
+        width: 81%;
+        height: 82%;
+        transition: opacity 1s;
+    }
+    figure.figure:hover figcaption {
+        opacity: 1;
+    }
+    figure.figure p {
+        font-size: 6.5px;
+        font-family: Arial;
+        position: absolute;
+        top: 15%;
+        margin-left: 2px; /*alinhas o texto em 2 pixeis a direita e a esquerda */
+        margin-right: 2px;
+    }
+}
+/* formatação da pagina para Mobile M */
+@media only screen and (min-width: 375px) and (max-width: 399px) {
+    figure.figure figcaption { /* bloco para a legenda*/
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
+        width: 83.5%;
+        height: 84%;
+        transition: opacity 1s;
+    }
+    figure.figure:hover figcaption {
+        opacity: 1;
+    }
+    figure.figure p {
+        font-size: 7px;
+        font-family: Arial;
+        position: absolute;
+        top: 40%;
+        left: 4px;
+        right: 2px;
+    }
+}
+/*formatação da pagina index para mobile L */
+@media only screen and (min-width: 400px) and (max-width: 699px) {
+    figure.figure figcaption { /* bloco para a legenda*/
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
+        width: 85.5%;
+        height: 86%;
+        transition: opacity 1s;
+    }
+    figure.figure:hover figcaption {
+        opacity: 1;
+    }
+    figure.figure p {
+        font-size: 8.3px;
+        position: absolute;
+        top: 40%;
+        left: 4px;
+        right: 2px;
+    }
+}
+/* formatação da pagina index para Tablets */
+@media only screen and (max-width: 1000px) and (min-width: 700px){
+    figure.figure figcaption { /* bloco para a legenda*/
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
+        width: 91.5%;
+        height: 92%;
+        transition: opacity 1s;
+    }
+    figure.figure:hover figcaption {
+        opacity: 1;
+    }
+    figure.figure p {
+        font-size: 8.5px;
+        font-family: Arial;
+        position: absolute;
+        top: 78%;
+        left: 0px;
+    }
+}
+/* formatação para laptop de 1024px*/
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    figure.figure figcaption { /* bloco para a legenda*/
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
+        width: 93.5%;
+        height: 93%;
+        transition: opacity 1s;
+    }
+
+    figure.figure:hover figcaption {
+        opacity: 1;
+    }
+
+    figure.figure p {
+        position: absolute;
+        font-family: Arial;
+        font-size: 13px;
+        top: 75%;
+    }
+}
