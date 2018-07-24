@@ -22,6 +22,8 @@
     <link href="css/contato_estilo.css" rel="stylesheet" />
     <!-- edição da pagina de artigo -->
     <link href="css/artigo_estilo.css" rel="stylesheet" />
+    <!-- fontes customisáveis-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
 </head>
 <body id="page-top">
 
