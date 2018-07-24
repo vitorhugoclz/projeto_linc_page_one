@@ -3,7 +3,8 @@
     <!-- Example row of columns -->
     <div class="col-md-12">
         <br/> <br/>
-        <h1 class="parceiros">Parceiros: </h1>
+        <h1 class="contato_titulo">Parceiros</h1>
+        <br>
     </div>
         <div class="col-md-12">
             <table class="table" >
@@ -127,7 +128,7 @@
         </div>
         <div class="col-md-12">
             <h2 class="h2_mapa">Mapa: </h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29713.365769455948!2d-45.98473715324789!3d-21.42253363945054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x94b5f5ac8b5a247f%3A0x46cb2184f1223f91!2sUniversidade+Federal+de+Alfenas+-+R.+Gabriel+Monteiro+da+Silva%2C+700+-+Centro%2C+Alfenas+-+MG%2C+37130-000!3m2!1d-21.4205921!2d-45.9486759!4m5!1s0x94b5f69c93d83c47%3A0x3e04bdb531ba69ea!2sUniversidade+Federal+de+Alfenas+-+Unidade+II%2C+Av.+Jovino+Fernandes+de+Sales%2C+2600+-+Santa+Clara%2C+Alfenas+-+MG%2C+37133-840!3m2!1d-21.4210516!2d-45.9846017!5e0!3m2!1spt-BR!2sbr!4v1531778336969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29713.365769455948!2d-45.98473715324789!3d-21.42253363945054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x94b5f5ac8b5a247f%3A0x46cb2184f1223f91!2sUniversidade+Federal+de+Alfenas+-+R.+Gabriel+Monteiro+da+Silva%2C+700+-+Centro%2C+Alfenas+-+MG%2C+37130-000!3m2!1d-21.4205921!2d-45.9486759!4m5!1s0x94b5f69c93d83c47%3A0x3e04bdb531ba69ea!2sUniversidade+Federal+de+Alfenas+-+Unidade+II%2C+Av.+Jovino+Fernandes+de+Sales%2C+2600+-+Santa+Clara%2C+Alfenas+-+MG%2C+37133-840!3m2!1d-21.4210516!2d-45.9846017!5e0!3m2!1spt-BR!2sbr!4v1531778336969" class=mapa frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 </div>
     <hr><!-- /container -->

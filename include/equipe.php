@@ -1,21 +1,21 @@
-<section id="equipe" class="about-section text-center">
+    <section id="equipe" class="about-section text-center">
 <div class="container">
     <div class="row align-items-center">
         <div class="col-md-12" align="center">
             <br/> <br/>
-            <h1>Docentes: </h1> <br/>
+            <h1 class="docentes">Docentes</h1> <br/>
         </div>
         <div class="col-md-4" align="right"> <!-- coloca a foto com legenda em 4 colunas e deslocamento a direita -->
             <figure class="orientador">
                 <img src="fotos/pessoas/ricardo.jpeg" class="img-thumbnail"/> <!-- foto pequena -->
                 <figcaption class="desc_orientador"> <!-- coloca uma legenda na foto com o nome da pessoa -->
-                    <h2>Ricardo Menezes Salgado</h2>
                 </figcaption>
             </figure>
         </div>
-        <div class="col-md-2" align="left"> <!-- coloca o texto sobre a pessoa na lateal da foto e em 2 colunas -->
-            <h3 class="titulacao">Titulação: </h3>
-            <p class="descricao">
+        <div class="col-md-2"> <!-- coloca o texto sobre a pessoa na lateal da foto e em 2 colunas -->
+            <h3 class="equipe_nome" align="left">Ricardo Menezes Salgado</h3>
+            <h3 class="titulacao" align="left">Titulação: </h3>
+            <p class="descricao" align="justify">
                 Doutor em Engenharia Elétrica pela Faculdade de Engenharia Elétrica e Computação da Universidade Estadual de Campinas (2009).
             </p>
             <a target="_blank" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4762367Y2">MAIS</a>
@@ -25,27 +25,27 @@
             <figure class="orientador">
                 <img src="fotos/pessoas/luisim.jpg" class="img-thumbnail"/> <!-- foto pequena -->
                 <figcaption> <!-- coloca uma legenda na foto com o nome da pessoa -->
-                    <h2>Luis Eduardo da Silva</h2>
                 </figcaption>
             </figure>
         </div>
         <div class="col-md-2" align="left"> <!-- coloca o texto sobre a pessoa na lateal da foto e em 2 colunas -->
+            <h3 class="equipe_nome">Luis Eduardo da Silva</h3>
             <h3 class="titulacao">Titulação:</h3>
-            <p class="descricao">
+            <p class="descricao" align="justify">
                 Doutor em Ciências em Engenharia Elétrica pela Universidade Federal de Itajubá (2012).
             </p>
             <a target="_blank" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4767518A1">MAIS</a>
             <!--link acima para o curiculo dos professor -->
         </div>
         <div class="col-md-12">
-            <h1>Discentes: </h1>
+            <h1 class="docentes">Discentes</h1>
         </div>
         <!-- identação para relacao de pertinencia visual -->
         <div class="col-md-3" align="center">
             <figure>
                 <img src="fotos/pessoas/luis_gustavo.png" class="img-thumbnail " data-toggle="modal" data-target="#luisgustavo"/>
                 <figcaption>
-                    <h3>Luis Gustavo</h3>
+                    <h3 class="equipe_nome">Luis Gustavo</h3>
                 </figcaption>
             </figure>
         </div>
@@ -71,7 +71,7 @@
             <figure>
                 <img src="fotos/pessoas/natalia.png" class="img-thumbnail " data-toggle="modal" data-target="#natalia"/>
                 <figcaption>
-                    <h3>Natalia</h3>
+                    <h3 class="equipe_nome">Natalia</h3>
                 </figcaption>
             </figure>
         </div>
@@ -97,7 +97,7 @@
             <figure>
                 <img src="fotos/pessoas/thiago.png" class="img-thumbnail " data-toggle="modal" data-target="#tiago"/>
                 <figcaption>
-                    <h3>Tiago</h3>
+                    <h3 class="equipe_nome">Tiago</h3>
                 </figcaption>
             </figure>
         </div>
@@ -124,7 +124,7 @@
             <figure>
                 <img src="fotos/pessoas/masculino.jpg" class="img-thumbnail " data-toggle="modal" data-target="#pedroafonso"/>
                 <figcaption>
-                    <h3>Pedro Afonso</h3>
+                    <h3 class="equipe_nome">Pedro Afonso</h3>
                 </figcaption>
             </figure>
         </div>
@@ -153,7 +153,7 @@
             <figure>
                 <img src="fotos/pessoas/daniel.png" class="img-thumbnail"  data-toggle="modal" data-target="#daniel"/>
                 <figcaption>
-                    <h3>Daniel</h3>
+                    <h3 class="equipe_nome">Daniel</h3>
                 </figcaption>
             </figure>
         </div>
@@ -180,7 +180,7 @@
             <figure>
                 <img src="fotos/pessoas/pedro_mazine.png" class="img-thumbnail " data-toggle="modal" data-target="#pedromazine"/>
                 <figcaption>
-                    <h3>Pedro Mazine</h3>
+                    <h3 class="equipe_nome">Pedro Mazine</h3>
                 </figcaption>
             </figure>
         </div>
@@ -207,7 +207,7 @@
             <figure>
                 <img src="fotos/pessoas/rafael.png" class="img-thumbnail " data-toggle="modal" data-target="#rafaelalves"/>
                 <figcaption>
-                    <h3>Rafael Alves</h3>
+                    <h3 class="equipe_nome">Rafael Alves</h3>
                 </figcaption>
             </figure>
         </div>
@@ -234,7 +234,7 @@
             <figure>
                 <img src="fotos/pessoas/felipe_choi2.jpg" class="img-thumbnail " data-toggle="modal" data-target="#felipechoi"/>
                 <figcaption>
-                    <h3>Felipe Choi</h3>
+                    <h3 class="equipe_nome">Felipe Choi</h3>
                 </figcaption>
             </figure>
         </div>
@@ -257,7 +257,9 @@
             </div>
         </div>
     <div class="col-md-12">
-        <h1>Ex-Discentes: </h1>
+        <br>
+        <h1 class="docentes">Ex-Discentes: </h1>
+        <br>
     </div>
         <div class="col-md-2">
             <figure>

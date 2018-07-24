@@ -1,5 +1,6 @@
 <header class="masthead">
     <div class="container">
+        <br/> <br/> <br/> <br/>
         <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-12"> <!-- determina 12 colunas para o texto, usado para responsividade -->
@@ -13,7 +14,6 @@
                 </div>
             </div>
         </div>
-        <hr>
     </div> <!-- /container -->
     <hr>
 </header>
