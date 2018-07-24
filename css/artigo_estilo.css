@@ -1,49 +1,75 @@
 @charset "UTF-8";
 /* edição do texto onde se encontra o link dos artigos: */
 area.artigo_nome{
-    font-family: "Times New Roman";
+    font-family: "Lato";
     font-size: 20px;
     color:green;
 }
 
+h1.area_titulo
+{
+    font-family: "Tratatello";
+    font-size: 40px;
+}
+
+h2.area_subtitulo
+{
+    font-family: "Tratatello";
+    font-size: 30px;
+    text-align: center;
+}
+
+h3.pesquisa_link
+{
+    font-family: "Lato";
+    font-size: 20px;
+    text-align: left;
+}
+
+h5.artigo_titulo
+{
+    font-family: "Lato";
+    font-size: 16px;
+}
+
 /* edição do texto para mobile S */
 @media only screen and (max-width: 374px){
-    a.artigo_nome{
-        font-family: "Times New Roman";
-        font-size: 12px;
+    a.artigo_nome,h5.artigo_titulo{
+        font-family: "Lato";
+        font-size: 10px;
         color: black;
     }
 }
 /* edição da pagina para mobile M */
 @media only screen and (min-width: 375px) and (max-width: 399px) {
-    a.artigo_nome{
-        font-family: "Times New Roman";
-        font-size: 13.5px;
+    a.artigo_nome,h5.artigo_titulo{
+        font-family: "Lato";
+        font-size: 12.5px;
         color: black;
     }
 }
 /* edição da pagina para mobile L */
 @media only screen and (min-width: 400px) and (max-width: 699px) {
-    a.artigo_nome{
-        font-family: "Times New Roman";
-        font-size: 14.5px;
+    a.artigo_nome,h5.artigo_titulo{
+        font-family: "Lato";
+        font-size: 15.5px;
         color: black;
     }
 }
 /* edição da pagina para Tablet */
 @media only screen and (max-width: 1000px) and (min-width: 700px){
-    a.artigo_nome{
-        font-family: "Times New Roman";
-        font-size: 15.5px;
+    a.artigo_nome,h5.artigo_titulo{
+        font-family: "Lato";
+        font-size: 16px;
         color: black;
     }
 }
 /* edição da pagina para laptop */
 /* formatação para laptop de 1024px*/
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
-    a.artigo_nome{
-        font-family: "Times New Roman";
-        font-size: 19px;
+    a.artigo_nome,a.artigo_titulo{
+        font-family: "Lato";
+        font-size: 16px;
         color: black;
     }
 }
